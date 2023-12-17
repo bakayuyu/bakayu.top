@@ -15,6 +15,10 @@ export default defineSiteConfig({
   subtitle: "",
   timezone: "Asia/Shanghai",
 
+  cdn: {
+    prefix: "https://npm.onmicrosoft.cn/",
+  },
+  
   social: [
  /*    {
       name: 'RSS',

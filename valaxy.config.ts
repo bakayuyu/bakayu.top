@@ -57,7 +57,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 设置 valaxy-addon-waline 配置项
     addons: [
       addonWaline({
-        serverURL: 'https://waline.bakayu.top',
+        serverURL: 'https://waline-blog-ivory.vercel.app',
       }),
     ],
 

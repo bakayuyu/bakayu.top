@@ -31,25 +31,30 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
-/*       {
+      
+      {
         name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
+        url: 'https://blog.lzc256.com/post/about/',
+        icon: 'i-ri-heart-line',
         color: 'hotpink',
-      }, */
+      },
+
+
     ],
 
     footer: {
       since: 2016,
       beian: {
         enable: false,
-        icp: '苏ICP备17038157号',
+        icp: '',
       },
     },
   },
+
+  
 
   unocss: { safelist },
 

@@ -8,6 +8,9 @@ dependencies:
   valaxy:
     specifier: 0.15.14
     version: 0.15.14(@types/markdown-it@13.0.7)(@unhead/shared@1.8.9)(postcss@8.4.32)(typescript@5.3.3)(unhead@1.8.9)
+  valaxy-addon-lightgallery:
+    specifier: ^0.0.2
+    version: 0.0.2
   valaxy-addon-waline:
     specifier: ^0.1.1
     version: 0.1.1(typescript@5.3.3)(valaxy@0.15.14)
@@ -2706,6 +2709,11 @@ packages:
     resolution: {integrity: sha512-y+SqErxb8h7nE/fiEX07jsbuhrpO9lL8eca7/Y1nuWV2moNlXhyd59iDGcRf6moVyDMbmTNzL40SUyrFU/yDpg==}
     dev: false
 
+  /lightgallery@2.7.2:
+    resolution: {integrity: sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==}
+    engines: {node: '>=6.0.0'}
+    dev: false
+
   /linkify-it@4.0.1:
     resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}
     dependencies:
@@ -3761,6 +3769,12 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /valaxy-addon-lightgallery@0.0.2:
+    resolution: {integrity: sha512-pP8hmHMad1QxKzzh1GwjL3dC6/bm1Vpj9lYefwZ+EzOgSUaQ44LVeU2koA+C6c2iy5AaDZlZzZ7LLnvckanYJA==}
+    dependencies:
+      lightgallery: 2.7.2
     dev: false
 
   /valaxy-addon-waline@0.1.1(typescript@5.3.3)(valaxy@0.15.14):

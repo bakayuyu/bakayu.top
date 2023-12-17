@@ -2,12 +2,19 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://bakayu.top/',
+  favicon: "https://pic-bed-2ut.pages.dev/avatar-2048x2048.jpg",
   lang: 'zh-CN',
-  title: '小站',
+  title: '宇宇的小站',
   author: {
     name: 'baka宇宇',
+    avatar: "https://pic-bed-2ut.pages.dev/avatar-2048x2048.jpg",
+    email: "public@bakyu.top",
+    link: "https://bakayu.top",
   },
-  description: 'null',
+  description: '把自己流放到世界上的某个角落。',
+  subtitle: "",
+  timezone: "Asia/Shanghai",
+
   social: [
  /*    {
       name: 'RSS',

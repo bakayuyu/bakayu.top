@@ -8,6 +8,9 @@ dependencies:
   valaxy:
     specifier: 0.15.14
     version: 0.15.14(@types/markdown-it@13.0.7)(@unhead/shared@1.8.9)(postcss@8.4.32)(typescript@5.3.3)(unhead@1.8.9)
+  valaxy-addon-waline:
+    specifier: ^0.1.1
+    version: 0.1.1(typescript@5.3.3)(valaxy@0.15.14)
   valaxy-theme-yun:
     specifier: 0.15.14
     version: 0.15.14
@@ -1243,6 +1246,19 @@ packages:
       - vue
     dev: false
 
+  /@waline/client@2.15.8(typescript@5.3.3):
+    resolution: {integrity: sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@vueuse/core': 10.7.0(vue@3.3.11)
+      autosize: 6.0.1
+      marked: 4.3.0
+      vue: 3.3.11(typescript@5.3.3)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: false
+
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
     deprecated: Use your platform's native atob() and btoa() methods instead
@@ -1345,6 +1361,10 @@ packages:
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+    dev: false
+
+  /autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
     dev: false
 
   /available-typed-arrays@1.0.5:
@@ -2806,6 +2826,12 @@ packages:
       uc.micro: 1.0.6
     dev: false
 
+  /marked@4.3.0:
+    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: false
+
   /mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
     dev: false
@@ -3735,6 +3761,18 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /valaxy-addon-waline@0.1.1(typescript@5.3.3)(valaxy@0.15.14):
+    resolution: {integrity: sha512-IvVefifccHJP8asOGEBLf88298Xu1A6atH8qYo3bb+gKvUJBAzch0EvrvvFnP/J2ICHOwQbitSTYBHOqDY481g==}
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      '@waline/client': 2.15.8(typescript@5.3.3)
+      valaxy: 0.15.14(@types/markdown-it@13.0.7)(@unhead/shared@1.8.9)(postcss@8.4.32)(typescript@5.3.3)(unhead@1.8.9)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
     dev: false
 
   /valaxy-theme-yun@0.15.14:

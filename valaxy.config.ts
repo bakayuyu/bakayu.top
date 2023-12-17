@@ -1,10 +1,14 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
 ]
+
+
+
 
 /**
  * User Config
@@ -48,4 +52,13 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+
+    // 设置 valaxy-addon-waline 配置项
+    addons: [
+      addonWaline({
+        serverURL: 'https://waline.bakayu.top',
+      }),
+    ],
+
 })

@@ -117,4 +117,11 @@ export default defineSiteConfig({
       },
     ],
   },
-})
+
+      // 启用评论
+      comment: {
+        enable: true
+      },
+
+  })
+

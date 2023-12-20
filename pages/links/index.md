@@ -11,8 +11,8 @@ links:
     color: "#9cb5c0"
   - url: https://blog.lzc256.com/
     avatar: https://s1.lzc256.com/avatars/01.jpg
-    name: lzc256
-    blog: lzc256's Time Machine!
+    name: 落雨宸
+    blog: 落雨宸的时光机
     desc: 贴贴是世界上最美好的事情!
     color: "#f5abb9"
   - url: https://justaloli.cn

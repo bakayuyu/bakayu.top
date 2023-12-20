@@ -36,8 +36,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       
       {
-        name: '喜欢的女孩子',
-        url: 'https://blog.lzc256.com/post/about/',
+        name: '永远爱的女孩子',
+        url: 'https://blog.lzc256.com/about.html',
         icon: 'i-ri-heart-line',
         color: 'hotpink',
       },

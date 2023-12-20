@@ -12,7 +12,7 @@ export default defineSiteConfig({
     link: "https://bakayu.top",
   },
   description: '把自己流放到世界上的某个角落。',
-  subtitle: "",
+  subtitle: "awa",
   timezone: "Asia/Shanghai",
 
   cdn: {

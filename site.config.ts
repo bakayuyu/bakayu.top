@@ -11,7 +11,7 @@ export default defineSiteConfig({
     email: "public@bakyu.top",
     link: "https://bakayu.top",
   },
-  description: '把自己流放到世界上的某个角落。',
+  description: '把自己流放到世界的某个角落。',
   subtitle: "awa",
   timezone: "Asia/Shanghai",
 

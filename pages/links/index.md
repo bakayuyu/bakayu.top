@@ -25,3 +25,18 @@ random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" errorImg="https://cdn.yunyoujun.cn/img/avatar/none.jpg" />
+
+# 我的信息
+
+url: https://bakayu.top/
+
+avatar: https://img.bakayu.top/avatar
+
+name: baka宇宇
+
+blog: 宇宇的小站
+
+desc: 把自己流放到世界的某个角落。
+
+color: "#5bcffa"
+
